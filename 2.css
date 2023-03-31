@@ -64,7 +64,7 @@ a:active {
 
 .my-skills {
   /* border: 5px outset green; */
-  color: green;
+  color: rgb(0, 77, 128);
   /* background-color: green; */
   border-radius: 10px;
   padding: 10px 20px;
@@ -76,7 +76,7 @@ a:active {
 .my-skills:hover {
   /* border: 5px outset green; */
   color: white;
-  background-color: green;
+  background-color: rgb(0, 77, 128);
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
