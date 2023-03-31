@@ -48,7 +48,7 @@ a:link,
 a:visited {
   background-color: white;
   color: black;
-  border: 2px solid green;
+  border: 2px solid rgb(0, 77, 128);
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
@@ -58,7 +58,7 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: green;
+  background-color: rgb(0, 77, 128);
   color: white;
 }
 
