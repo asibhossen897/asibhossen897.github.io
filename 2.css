@@ -1,3 +1,7 @@
+body {
+  background-color: azure;
+}
+
 h2,
 h3,
 p,
@@ -26,6 +30,25 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  transition: transform 0.5s ease-in-out; 
+  animation: scale-up 1s ease-in-out;
+}
+
+
+@keyframes scale-up {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.myPhoto:hover {
+  transform: scale(1.2); 
 }
 
 .author-name {
