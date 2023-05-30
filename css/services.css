@@ -97,11 +97,11 @@ h1 {
 }
 
 .service_details {
-  margin-left: 80px;
+  margin-left: 100px;
 }
 
 .service_details2 {
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 .flex_container2 .service_details {
@@ -129,11 +129,11 @@ h1 {
 }
 
 .page_setup_icon {
-  width: 200px;
+  width: 250px;
 }
 
 .code_icon {
-  width: 200px;
+  width: 250px;
 }
 
 @media only screen and (max-width: 768px) {
