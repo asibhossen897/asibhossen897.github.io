@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;600;700;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -105,6 +106,18 @@ button:hover {
   color: rgb(255, 174, 0);
 }
 
+.bn_text {
+  font-family: "Noto Serif Bengali", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 50px 70px 50px;
+}
+
+.bn_bold {
+  font-weight: 700;
+  color: rgb(255, 174, 0);
+}
 /* Services page */
 /* .service_items_container {
   display: flex;
@@ -155,14 +168,21 @@ button:hover {
   .span {
     display: block;
   }
+
+  .bn_text {
+    font-size: 23px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .nav_items li {
-    display: inline-block;
-    padding: 0px 13px;
+    /* display: inline-block; */
+    /* padding: 0px 13px; */
   }
   .description p {
     margin: 0 13px;
+  }
+  .bn_text {
+    font-size: 20px;
   }
 }
