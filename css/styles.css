@@ -27,6 +27,7 @@ button {
 
 .logo:hover {
   color: rgb(255, 174, 0);
+  transition: all 0.3s ease 0s;
 }
 
 header {
