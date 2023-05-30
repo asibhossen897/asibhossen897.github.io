@@ -17,11 +17,16 @@ button {
   color: #edf0f1;
   text-decoration: none;
 }
+
 .logo {
   margin-right: auto;
   font-size: 25px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.logo:hover {
+  color: rgb(255, 174, 0);
 }
 
 header {
