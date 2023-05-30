@@ -25,11 +25,6 @@ button {
   cursor: pointer;
 }
 
-.logo:hover {
-  color: rgb(255, 174, 0);
-  transition: all 0.3s ease 0s;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
@@ -108,4 +103,51 @@ button:hover {
 .description p span {
   font-weight: 700;
   color: rgb(255, 174, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .nav_items {
+    /* display: inline-block;
+    padding: 0px 20px; */
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  button {
+    display: inline-block;
+    margin: 10px;
+    padding: 9px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my_photo {
+    margin: 50px 50px;
+  }
+
+  .description {
+    margin: 0px 60px 60px 60px;
+    text-align: center;
+  }
+
+  .description p {
+    margin: 0 65px;
+  }
+
+  .span {
+    display: block;
+  }
 }
