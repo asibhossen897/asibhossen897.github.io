@@ -25,6 +25,9 @@ button {
   cursor: pointer;
 }
 
+.logo:hover {
+  color: rgb(255, 174, 0);
+}
 header {
   display: flex;
   justify-content: flex-end;
