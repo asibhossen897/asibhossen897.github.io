@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+li,
+a,
+h2,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.logo {
+  margin-right: auto;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_items {
+  list-style: none;
+}
+
+.nav_items li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_items li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_items li a:hover {
+  color: rgb(255, 174, 0);
+}
+
+button {
+  margin-left: 25px;
+  padding: 9px;
+  color: black;
+  background-color: rgba(255, 174, 0, 1);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  color: #edf0f1;
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.my_photo {
+  width: 250px;
+  border-radius: 25px;
+  margin: 100px 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  font-family: "Montserrat", sans-serif;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.description h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.description h3 span {
+  color: rgb(255, 174, 0);
+}
+
+.description p {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 15px 10px;
+  margin-left: 0;
+  margin-right: 80px;
+  line-height: 1.4;
+}
+
+.description p span {
+  font-weight: 700;
+  color: rgb(255, 174, 0);
+}
