@@ -11,6 +11,8 @@
 li,
 a,
 h2,
+h1,
+p,
 button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -118,10 +120,77 @@ button:hover {
   font-weight: 700;
   color: rgb(255, 174, 0);
 }
+
 /* Services page */
-/* .service_items_container {
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 70px 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 70px 50px;
+  text-align: center;
+}
+.flex_container1 {
   display: flex;
-} */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+.flex_container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+.service_details {
+  margin-left: 100px;
+}
+
+.service_details2 {
+  margin-right: 100px;
+}
+
+.flex_container2 .service_details {
+  margin: 0;
+}
+
+.service_details p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.service_details2 p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.page_setup {
+  text-align: left;
+  margin: auto;
+}
+
+.web_development {
+  text-align: left;
+  margin: auto;
+}
+
+.page_setup_icon {
+  width: 250px;
+}
+
+.code_icon {
+  width: 250px;
+}
 
 @media only screen and (max-width: 768px) {
   header {
@@ -172,12 +241,45 @@ button:hover {
   .bn_text {
     font-size: 23px;
   }
+
+  .flex_container1 {
+    flex-direction: column;
+    margin: 50px 0px;
+  }
+
+  .flex_container2 {
+    flex-direction: column;
+    margin: 50px 0px;
+  }
+
+  .service_details {
+    margin: 30px 50px;
+  }
+
+  .service_details p {
+    text-align: center;
+  }
+
+  .page_setup {
+    text-align: center;
+  }
+
+  .service_details2 {
+    margin: 30px 50px;
+  }
+
+  .service_details2 p {
+    text-align: center;
+  }
+  .web_development {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .nav_items li {
-    /* display: inline-block; */
-    /* padding: 0px 13px; */
+    display: inline-block;
+    padding: 0px 13px;
   }
   .description p {
     margin: 0 13px;
