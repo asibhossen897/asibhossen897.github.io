@@ -10,7 +10,9 @@
 li,
 a,
 h2,
-button {
+h1,
+button,
+p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -65,50 +67,74 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-.my_photo {
-  width: 250px;
-  border-radius: 25px;
-  margin: 100px 100px;
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 70px 50px;
+  text-align: center;
 }
 
-.container {
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 70px 50px;
+  text-align: center;
+}
+.flex_container1 {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.description {
-  font-family: "Montserrat", sans-serif;
-  color: #edf0f1;
-  text-decoration: none;
+  margin: 50px 100px;
 }
 
-.description h3 {
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.description h3 span {
-  color: rgb(255, 174, 0);
-}
-
-.description p {
-  font-weight: 500;
-  font-size: 20px;
-  margin: 15px 10px;
-  margin-left: 0;
-  margin-right: 80px;
-  line-height: 1.4;
-}
-
-.description p span {
-  font-weight: 700;
-  color: rgb(255, 174, 0);
-}
-
-/* Services page */
-/* .service_items_container {
+.flex_container2 {
   display: flex;
-} */
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+.service_details {
+  margin-left: 80px;
+}
+
+.service_details2 {
+  margin-left: 80px;
+}
+
+.flex_container2 .service_details {
+  margin: 0;
+}
+
+.service_details p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.service_details2 p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.page_setup {
+  text-align: left;
+  margin: auto;
+}
+
+.web_development {
+  text-align: left;
+  margin: auto;
+}
+
+.page_setup_icon {
+  width: 200px;
+}
+
+.code_icon {
+  width: 200px;
+}
 
 @media only screen and (max-width: 600px) {
   header {
@@ -127,42 +153,43 @@ button:hover {
     margin-top: 8px;
     margin-bottom: 0;
   }
+
   button {
     display: inline-block;
     margin: 10px;
     padding: 9px;
   }
 
-  .container {
+  .flex_container1 {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 50px 0px;
   }
 
-  .my_photo {
-    margin: 35px 50px 55px 50px;
+  .flex_container2 {
+    flex-direction: column;
+    margin: 50px 0px;
   }
 
-  .description {
-    margin: 0px 60px 60px 60px;
+  .service_details {
+    margin: 30px 50px;
+  }
+
+  .service_details p {
     text-align: center;
   }
 
-  .description p {
-    margin: 0 65px;
+  .page_setup {
+    text-align: center;
   }
 
-  .span {
-    display: block;
+  .service_details2 {
+    margin: 30px 50px;
   }
-}
 
-@media only screen and (max-width: 400px) {
-  .nav_items li {
-    display: inline-block;
-    padding: 0px 13px;
+  .service_details2 p {
+    text-align: center;
   }
-  .description p {
-    margin: 0 13px;
+  .web_development {
+    text-align: center;
   }
 }
