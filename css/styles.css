@@ -25,9 +25,6 @@ button {
   cursor: pointer;
 }
 
-.logo:hover {
-  color: rgb(255, 174, 0);
-}
 header {
   display: flex;
   justify-content: flex-end;
@@ -112,7 +109,7 @@ button:hover {
   header {
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   .logo {
@@ -138,7 +135,7 @@ button:hover {
   }
 
   .my_photo {
-    margin: 50px 50px;
+    margin: 35px 50px 55px 50px;
   }
 
   .description {
@@ -160,7 +157,7 @@ button:hover {
     display: inline-block;
     padding: 0px 13px;
   }
-  
   .description p {
     margin: 0 13px;
+  }
 }
