@@ -154,3 +154,10 @@ button:hover {
     display: block;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .nav_items li {
+    display: inline-block;
+    padding: 0px 13px;
+  }
+}
