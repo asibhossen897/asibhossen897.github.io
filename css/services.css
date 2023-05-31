@@ -11,60 +11,12 @@ li,
 a,
 h2,
 h1,
-button,
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
-}
-
-.logo {
-  margin-right: auto;
-  font-size: 25px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-}
-
-.nav_items {
-  list-style: none;
-}
-
-.nav_items li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav_items li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav_items li a:hover {
-  color: rgb(255, 174, 0);
-}
-
-button {
-  margin-left: 25px;
-  padding: 9px;
-  color: black;
-  background-color: rgba(255, 174, 0, 1);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  color: #edf0f1;
-  background-color: rgba(0, 136, 169, 0.8);
 }
 
 h2 {
@@ -97,11 +49,11 @@ h1 {
 }
 
 .service_details {
-  margin-left: 80px;
+  margin-left: 100px;
 }
 
 .service_details2 {
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 .flex_container2 .service_details {
@@ -129,14 +81,14 @@ h1 {
 }
 
 .page_setup_icon {
-  width: 200px;
+  width: 250px;
 }
 
 .code_icon {
-  width: 200px;
+  width: 250px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   header {
     flex-direction: column;
     justify-content: center;
@@ -145,13 +97,6 @@ h1 {
 
   .logo {
     margin: 0;
-  }
-
-  .nav_items {
-    /* display: inline-block;
-    padding: 0px 20px; */
-    margin-top: 8px;
-    margin-bottom: 0;
   }
 
   button {
