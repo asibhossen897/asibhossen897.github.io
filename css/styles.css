@@ -120,9 +120,10 @@ button:hover {
   font-weight: 700;
   color: rgb(255, 174, 0);
 }
-
 /* Services page */
-
+/* .service_items_container {
+  display: flex;
+} */
 h2 {
   font-size: 26px;
   font-weight: 700;
@@ -192,6 +193,43 @@ h1 {
   width: 250px;
 }
 
+/* Contact section */
+.fa {
+  padding: 20px;
+  font-size: 50px !important;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 60px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-telegram {
+  background: white;
+  color: #229ed9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.social_media_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 100px;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
 @media only screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -273,6 +311,15 @@ h1 {
   }
   .web_development {
     text-align: center;
+  }
+
+  /* Contact section */
+  .fa {
+    margin: 25px 10px;
+  }
+
+  .social_media_icons {
+    flex-direction: column;
   }
 }
 
