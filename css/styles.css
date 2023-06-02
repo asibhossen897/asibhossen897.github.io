@@ -204,6 +204,11 @@ h1 {
   border-radius: 60px;
 }
 
+.fa-github {
+  background: black;
+  color: white;
+}
+
 .fa-facebook {
   background: #3b5998;
   color: white;
@@ -222,7 +227,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 80px 100px;
+  margin: 70px 100px;
 }
 
 footer p {
@@ -320,6 +325,7 @@ footer p {
 
   .social_media_icons {
     flex-direction: column;
+    margin-top: 50px;
   }
 }
 
