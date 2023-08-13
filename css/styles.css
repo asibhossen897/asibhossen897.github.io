@@ -8,6 +8,11 @@
   background-color: #24252a;
 }
 
+body {
+  max-width: 1024px;
+  margin: auto;
+}
+
 li,
 a,
 h2,
