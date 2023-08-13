@@ -2,12 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;600;700;900&display=swap");
 * {
-  max-width: 1024px;
-  margin: auto;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #24252a;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
 }
 
 li,
