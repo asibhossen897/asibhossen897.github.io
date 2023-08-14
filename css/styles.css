@@ -260,6 +260,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     margin-top: 25px;
+    padding: 30px 23px;
   }
 
   .logo {
