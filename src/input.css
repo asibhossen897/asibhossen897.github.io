@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.glass {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl;
+}
+
+.service-card {
+  @apply glass p-6 transition-all hover:scale-105 hover:shadow-xl;
+}
+
+.social-icon {
+  @apply w-12 h-12 flex items-center justify-center rounded-full glass 
+           hover:bg-primary hover:text-dark transition-all;
+}
